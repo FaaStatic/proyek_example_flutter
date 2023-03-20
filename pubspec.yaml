@@ -1,0 +1,40 @@
+name: proyek_example
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  dio: ^5.0.2
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.4.0
+  geolocator: ^9.0.2
+  go_router: ^6.2.0
+  intl: ^0.18.0
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: FiraSans
+      fonts:
+        - asset: fonts/FiraSans-Bold.ttf
+        - asset: fonts/FiraSans-Medium.ttf
+        - asset: fonts/FiraSans-SemiBold.ttf
+        - asset: fonts/FiraSans-Regular.ttf
+        - asset: fonts/FiraSans-Regular.ttf
+          style: italic
+    - family: Minecrafter
+      fonts:
+        - asset: fonts/Minecrafter-Reguler.ttf
+        - asset: fonts/Minecrafter-Alternative.ttf
